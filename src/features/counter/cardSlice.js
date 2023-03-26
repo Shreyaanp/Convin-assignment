@@ -12,6 +12,7 @@ export const cardSlice = createSlice({
                 title: action.payload.title,
                 link : action.payload.link,
                 bucket: action.payload.bucket,
+                history: 0,
             });
         },
         deleteCard: (state, action) => {
