@@ -351,7 +351,6 @@ function App() {
           onChange={handleNewCardLinkChange}
         />
         <Radio.Group onChange={handleBucketChange}
-          defaultValue={selectedBucket}
         >
           <Radio.Button value="todo">Todo</Radio.Button>
           <Radio.Button value="inprogress">In Progress</Radio.Button>
