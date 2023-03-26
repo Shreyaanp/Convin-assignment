@@ -169,7 +169,7 @@ function App() {
                             history : 1,
                             time : new Date().toLocaleString()
                           }))
-                          alert("history updated")
+                          // alert("history updated")
                         }
 
                         }
