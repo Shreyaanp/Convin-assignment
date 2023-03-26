@@ -24,3 +24,7 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+.select{
+    width: 200px;
+    color: black;
+}
